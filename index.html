@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 01: Construye un encriptador de texto con Javascript</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-contenedor">
+            <img class="imagen-logo" src="img/logo.png" alt="Logo de Alura">
+        </div>
+    </header>
+    <main>
+        <section class="ingreso-contenedor">
+            <textarea class="texto-ingreso" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="funciones-contenedor">
+                <div class="aviso-contenedor">
+                    <img class="icono-aviso" src="img/icon-exclamation.png" alt="Icono de exclamación">
+                    <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="boton-contenedor">
+                    <button class="encriptar-boton">Encriptar</button>
+                    <button class="desencriptar-boton">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="resultado-contenedor">
+            <textarea class="texto-resultado"  cols="30" rows="10" id=""></textarea>
+            <div class="mensaje-contenedor"> 
+                <img class="mensaje-imagen" src="img/img-01.png" alt="Joven mirando un diamante con una lupa">
+                <p class="texto-titulo">
+                    Ningún mensaje fue encontrado
+                </p>
+                <p class="texto-descripción">
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </p>
+            </div>
+            <div class="copiar-contenedor">
+                <button class="boton-copiar">Copiar</button>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="titular-contenedor">
+            <p>Elaborado por Javaled</p>
+        </div>
+    </footer>
+</body>
+</html>
